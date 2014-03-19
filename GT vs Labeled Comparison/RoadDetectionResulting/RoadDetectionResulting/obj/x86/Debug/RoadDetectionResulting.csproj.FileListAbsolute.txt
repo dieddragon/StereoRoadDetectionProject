@@ -1,0 +1,16 @@
+C:\Users\KBO\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\bin\Debug\RoadDetectionResulting.exe
+C:\Users\KBO\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\bin\Debug\RoadDetectionResulting.pdb
+C:\Users\KBO\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.GUI.resources
+C:\Users\KBO\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.Properties.Resources.resources
+C:\Users\KBO\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.exe
+C:\Users\KBO\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.pdb
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.exe
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.pdb
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\bin\Debug\RoadDetectionResulting.exe
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\bin\Debug\RoadDetectionResulting.pdb
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.GUI.resources
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.Properties.Resources.resources
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\KBO\Dropbox\Academy\Projects\Road Detection, Extraction and Tracking\Stereo Vision\Stereo Road Detection\Software\RoadDetectionResulting\RoadDetectionResulting\obj\x86\Debug\RoadDetectionResulting.csproj.GenerateResource.Cache
