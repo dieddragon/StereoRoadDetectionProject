@@ -1267,7 +1267,8 @@ Mat detectRoad(Mat imgMat, Mat xyzMat, Mat &trainingBuffer, Mat &means, vector<M
 		{
 			int nTrainingSamplesOld = trainingBuffer.rows;	//take the number of training samples before the update of models
 			covsInv = invertDiagonalMatrixAll(covs);	//invert the covariance matrices
-			updateClustersEMMah(trainingBuffer, threshold_update_mahalanobis, means, covs, covsInv, weights);	//update clusters (models) found with EM
+			//updateClustersEMMah(trainingBuffer, threshold_update_mahalanobis, means, covs, covsInv, weights);	//update clusters (models) found with EM
+			updateClustersEMMahCorrected(trainingBuffer, threshold_update_mahalanobis, means, covs, covsInv, weights);	//update clusters (models) found with EM
 		
 			//int nTrainingSamplesCurr = trainingBuffer.rows;	//take the number of training samples after the update of models
 			if (debug) cout << "Remaining training samples : " << trainingBuffer.rows << endl;
@@ -1323,8 +1324,10 @@ Mat detectRoad(Mat imgMat, Mat xyzMat, Mat &trainingBuffer, Mat &means, vector<M
 
 					double weightNew = (double)nTrainingSamplesCurr/(double)nTrainingSamplesOld;	//the weight of the remaining samples to the samples at the start
 					clusterEM(trainingBuffer, n_clusters_new, meansNew, covsNew, weightsNew);	//learn new models
-					weightsNew = weightsNew * weightNew;		//update the weights
-					insertClusters2LibEM(means, covs, covsInv, weights, meansNew, covsNew, weightsNew);	//insert the newly learned models to the model library
+					//weightsNew = weightsNew * weightNew;		//update the weights (old implementation)
+					weightsNew = weightsNew * weightNew / 2;	//update the weights (new implementation with corrected update)
+					//insertClusters2LibEM(means, covs, covsInv, weights, meansNew, covsNew, weightsNew);	//insert the newly learned models to the model library
+					insertClusters2LibEMCorrected(means, covs, covsInv, weights, meansNew, covsNew, weightsNew);	//insert the newly learned models to the model library
 					trainingBuffer = empty;		//empty the training sample buffer
 				}	
 			}

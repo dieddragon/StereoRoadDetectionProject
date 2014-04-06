@@ -17,7 +17,7 @@ int height = 480;
 int size_patch = 5; 
 //Histogram Params
 //number of bins
-int n_bins = 8; //number of bins in each histogram of image patches for each channel (m)
+int n_bins = 2; //number of bins in each histogram of image patches for each channel (m)
 //int n_bins_hue = 2; //number of bins in each histogram of image patches for hue (m)
 //total size of histograms
 int size_hist[] = {n_bins, n_bins, n_bins};
