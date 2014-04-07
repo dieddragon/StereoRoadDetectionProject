@@ -1306,8 +1306,10 @@ Mat detectRoad(Mat imgMat, Mat xyzMat, Mat &trainingBuffer, Mat &means, vector<M
 		
 					double weightNew = (double)nTrainingSamplesCurr/(double)nTrainingSamplesOld;	//the weight of the remaining samples to the samples at the start
 					clusterEM(trainingBuffer, n_clusters_new, meansNew, covsNew, weightsNew);	//learn new models
-					weightsNew = weightsNew * weightNew;		//update the weights
-					insertClusters2LibEM(means, covs, covsInv, weights, meansNew, covsNew, weightsNew);	//insert the newly learned models to the model library
+					//weightsNew = weightsNew * weightNew;		//update the weights
+					weightsNew = weightsNew * weightNew / 2;	//update the weights (new implementation with corrected update)
+					//insertClusters2LibEM(means, covs, covsInv, weights, meansNew, covsNew, weightsNew);	//insert the newly learned models to the model library
+					insertClusters2LibEMCorrected(means, covs, covsInv, weights, meansNew, covsNew, weightsNew);	//insert the newly learned models to the model library
 				}
 		
 				trainingBuffer = dummyTrainingBuffer;		//pass remaining samples to the next frame
